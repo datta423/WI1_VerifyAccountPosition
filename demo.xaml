@@ -119,6 +119,6 @@
       </ui:GetValue.Value>
     </ui:GetValue>
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="356.8,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_5" Text="[getText]" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="356.8,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[getText.Substring(getText.LastIndexOf(&quot;Account Number:&quot;)).Split(&quot;:&quot;c)(1).Remove(1).ToString]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="356.8,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[getText.Substring(getText.LastIndexOf(&quot;Account Number:&quot;)).Split(&quot;:&quot;c)(1)]" />
   </Sequence>
 </Activity>
